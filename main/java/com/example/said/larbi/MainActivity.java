@@ -1,4 +1,5 @@
-package com.example.said.larbi;
+package com.example.said.larbi; 
+            //-----Said + Larbi
         import android.app.AlertDialog;
         import android.database.Cursor;
         import android.support.v7.app.ActionBarActivity;
@@ -23,7 +24,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        myDb = new DatabaseHelper(this);
+          
+        myDb = new DatabaseHelper(this); //------>Sqlite3
 
         editName = (EditText)findViewById(R.id.editText_name);
         editSurname = (EditText)findViewById(R.id.editText_surname);
